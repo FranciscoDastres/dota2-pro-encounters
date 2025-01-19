@@ -1,0 +1,64 @@
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    height: 100vh; 
+    background-color: #2c9cfd; 
+    flex-wrap: wrap;
+  }
+  
+
+  .contenido {
+    text-align: center;
+    padding: 20px;
+    background-color: #b1dffa;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1500px;
+  }
+  
+  /* Estilos para el input y el botón */
+  .input-group {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre el input y el botón */
+  }
+  
+  .input-group input {
+    text-align: center;
+    padding: 10px;
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .input-group button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para la tabla */
+  .tabla {
+    background-color: #396694;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    max-height: 700px; /* Limita la altura de la tabla */
+    overflow-y: auto; /* Agrega scroll si el contenido es muy largo */
+    width: 1000px;
+    justify-self: center
+  }
+  
+  img{
+    width: 50%;
+  }
